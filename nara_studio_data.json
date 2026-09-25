@@ -1,0 +1,237 @@
+{
+    "admin_auth": {
+        "username": "Admin",
+        "password": "1234"
+    },
+    "projects": [
+        {
+            "nama": "Blank-Cat",
+            "min_player": "2",
+            "max_player": "2",
+            "min_duration": "5",
+            "max_duration": "10",
+            "genre": "Abstack Strategy / Spacial Strategy",
+            "deadline": "2026-10-11",
+            "status": "Active",
+            "summary": "Blank-Cat adalah game kartu strategi abstrak 2 pemain yang mengandalkan spatial reasoning, tactical planning, dan overlay placement. Pemain secara bergantian menempatkan kartu dengan menumpuk sebagian kartu lain, dengan setiap bagian yang saling menutupi harus memiliki warna yang sama. Pemain berusaha mempertahankan kucing miliknya tetap terlihat sekaligus menutupi kucing lawan. Setiap kucing yang masih terlihat di akhir permainan bernilai 1 poin.\n\nDengan hanya 18 kartu, area permainan terbatas, dan informasi kartu yang terbuka, setiap placement menjadi keputusan taktis: kapan menutup kucing lawan, kapan melindungi kucing sendiri, dan bagaimana memanfaatkan posisi kartu untuk mendapatkan hasil optimal.",
+            "components": [
+                {
+                    "komponen": "Card",
+                    "jumlah": "18"
+                }
+            ],
+            "tasks": {
+                "Mengetahui inti aksi pemain (core gameplay/action).": true,
+                "Mengetahui kondisi dan cara pemain meraih kemenangan.": true,
+                "Menentukan komponen utama yang dibutuhkan.": true,
+                "Memiliki batasan skala/cakupan game (scope).": true,
+                "Bisa merangkum dan menjelaskan game dalam waktu ±30 detik.": true,
+                "Game bisa dilakukan setup dari awal.": true,
+                "Sesi permainan bisa dimulai dengan lancar.": true,
+                "Bisa menyelesaikan satu putaran/permainan penuh.": true,
+                "Kondisi menang/kalah dapat terpicu dengan benar.": true,
+                "Berhasil mengidentifikasi masalah atau hambatan desain pertama.": true,
+                "Masalah terbesar dari mekanik telah teridentifikasi.": true,
+                "Tidak ada strategi yang terbukti merusak jalannya game (broken strategy).": true,
+                "Game memberikan pengalaman yang konsisten di setiap sesi.": true,
+                "Mengetahui aspek apa saja yang masih perlu iterasi/perbaikan.": true,
+                "Core loop (lingkaran aktivitas utama) sudah stabil.": true,
+                "Komponen utama telah ditentukan secara pasti.": true,
+                "Jumlah komponen/kartu berada di angka yang relatif final.": true,
+                "Struktur giliran (turn structure) sudah final.": true,
+                "Kondisi kemenangan sudah dikunci (final).": true,
+                "Perubahan selanjutnya dipastikan hanya berupa penyesuaian kecil (tweaks).": true,
+                "Solusi untuk masalah-masalah utama sudah diterapkan.": true,
+                "Palet warna utama telah dipilih.": true,
+                "Struktur tata letak komponen (layout/hierarchy) jelas.": true,
+                "Contoh komponen (sample component) menunjukkan konsistensi visual.": true,
+                "Board / Komponen Papan (Jika ada): Ukuran, grid, label, dan hierarki visual sudah tepat.": true,
+                "Token / Komponen Pendukung: Ukuran proporsional, mudah dibaca, dan konsisten.": true
+            },
+            "media": [
+                {
+                    "path": "C:\\Users\\user\\Downloads\\Twin Tails - Layout.pdf",
+                    "name": "Blank-Cat_Layout_v0.1.pdf",
+                    "kat": "Document",
+                    "date": "2026-09-23",
+                    "ext": ".pdf",
+                    "timestamp": "2026-09-23 00:00"
+                },
+                {
+                    "path": "C:\\Users\\user\\Downloads\\Rulebook V.0.10.docx",
+                    "name": "Rulebook_v0.1.docx",
+                    "kat": "Document",
+                    "date": "2026-09-23",
+                    "ext": ".docx",
+                    "timestamp": "2026-09-23 00:00"
+                },
+                {
+                    "path": "C:\\Users\\user\\Downloads\\Tails-2.pdf",
+                    "name": "Blank-Cat_Layout_v0.2.pdf",
+                    "kat": "Document",
+                    "date": "2026-09-23",
+                    "ext": ".pdf",
+                    "timestamp": "2026-09-23 00:00"
+                }
+            ],
+            "playtests": [
+                {
+                    "tanggal": "2026-09-23",
+                    "pemain": "2",
+                    "durasi": "5",
+                    "pemenang": "P1 / 5-2",
+                    "catatan": ""
+                },
+                {
+                    "tanggal": "2026-09-23",
+                    "pemain": "2",
+                    "durasi": "6",
+                    "pemenang": "P1 / 10-6",
+                    "catatan": ""
+                },
+                {
+                    "tanggal": "2026-09-23",
+                    "pemain": "2",
+                    "durasi": "7",
+                    "pemenang": "- / 5-5",
+                    "catatan": "Permainan berakhir seri"
+                }
+            ],
+            "ideas": [
+                {
+                    "judul": "Skor dari sisa kartu",
+                    "status": "Pending",
+                    "deskripsi": "Sisa 2 kartu yang tidak dimainkan oleh pemain akan diakumulasikan keskor masing-masing sejumlah poin yang ada di kartu tersebut",
+                    "tanggal": "2026-09-24 09:52:15"
+                }
+            ]
+        },
+        {
+            "nama": "No Exit",
+            "min_player": "1",
+            "max_player": "1",
+            "min_duration": "20",
+            "max_duration": "30",
+            "genre": "Survival Horror / Survival Escape",
+            "deadline": "2026-11-18",
+            "status": "Pause",
+            "summary": "No Exit adalah board game survival-horror berbasis kartu tentang seorang survivor yang terjebak di rumah sakit yang telah dipenuhi makhluk terinfeksi. Pemain harus menjelajahi berbagai lokasi, mencari dan mengelola Item serta Medicine, menghadapi Encounter dan Event, mengatur Energy, serta menghindari Infection. Pemain dapat memilih untuk menghadapi ancaman atau melarikan diri, sementara Fate Check digunakan untuk menentukan konsekuensi dari situasi berisiko. Pemain harus mengelola sumber daya dan menemukan Key Item yang diperlukan untuk akhirnya melarikan diri melalui salah satu jalan keluar rumah sakit.",
+            "components": [
+                {
+                    "komponen": "Card",
+                    "jumlah": "54"
+                },
+                {
+                    "komponen": "Resource",
+                    "jumlah": "15"
+                }
+            ],
+            "tasks": {
+                "Mengetahui inti aksi pemain (core gameplay/action).": true,
+                "Mengetahui kondisi dan cara pemain meraih kemenangan.": true,
+                "Menentukan komponen utama yang dibutuhkan.": true,
+                "Memiliki batasan skala/cakupan game (scope).": true,
+                "Bisa merangkum dan menjelaskan game dalam waktu ±30 detik.": true,
+                "Game bisa dilakukan setup dari awal.": false,
+                "Sesi permainan bisa dimulai dengan lancar.": false,
+                "Bisa menyelesaikan satu putaran/permainan penuh.": false
+            },
+            "media": [
+                {
+                    "path": "C:\\Users\\user\\Downloads\\Cards 0.15(2).docx",
+                    "name": "Cards List v0.2.docx",
+                    "kat": "Document",
+                    "ext": ".docx",
+                    "date": "2026-09-23",
+                    "timestamp": "2026-09-23 14:12"
+                },
+                {
+                    "path": "C:\\Users\\user\\Downloads\\NO EXIT - In Depth 0.2.docx",
+                    "name": "No_Exit_In_Depth_v0.2.docx",
+                    "kat": "Document",
+                    "ext": ".docx",
+                    "date": "2026-09-23",
+                    "timestamp": "2026-09-23 14:12"
+                },
+                {
+                    "path": "C:\\Users\\user\\Downloads\\NO EXIT - Rulebook 0.1.docx",
+                    "name": "No_Exit_Rulebook_v0.1.docx",
+                    "kat": "Document",
+                    "ext": ".docx",
+                    "date": "2026-09-23",
+                    "timestamp": "2026-09-23 14:12"
+                },
+                {
+                    "path": "C:\\Users\\user\\Downloads\\No Exit - Playtest 01.pdf",
+                    "name": "No_Exit_Layout_v0.1.pdf",
+                    "kat": "Document",
+                    "ext": ".pdf",
+                    "date": "2026-09-23",
+                    "timestamp": "2026-09-23 14:12"
+                }
+            ],
+            "playtests": [],
+            "ideas": []
+        },
+        {
+            "nama": "Monsters",
+            "min_player": "2",
+            "max_player": "2",
+            "min_duration": "5",
+            "max_duration": "10",
+            "genre": "Abstract Strategy / Quick Battle Card Game",
+            "deadline": "2026-11-18",
+            "status": "Pause",
+            "summary": "MONSTERS adalah quick strategic card game untuk 2 pemain, di mana pemain menawar monster dalam pasar gelap sebelum mengadu mereka di arena.\n\nSetiap pemain memiliki 3 Battle Cards yang bertarung di arena dan 3 kartu di tangan yang dapat digunakan sebagai Action Card. Setiap monster memiliki tiga parameter—Feral, Myth, dan Magic—yang memengaruhi efektivitas Move dan Action mereka.\n\nSelama pertarungan, pemain harus memilih kapan menyerang, kapan menggunakan monster dari tangan sebagai Action, dan bagaimana memanfaatkan keunggulan tristat masing-masing monster. Ketika sebuah monster dikalahkan, kartu monster tersebut kembali ke tangan pemiliknya sebagai Action Card, sementara kartu yang sebelumnya menjadi HP Tracker monster tersebut berpindah ke pemain yang memenangkan pertarungan dan juga menjadi Action Card.\n\nPertarungan berakhir ketika salah satu pemain berhasil mengalahkan seluruh Battle Card lawannya.",
+            "components": [
+                {
+                    "komponen": "Card",
+                    "jumlah": "18"
+                }
+            ],
+            "tasks": {
+                "Mengetahui inti aksi pemain (core gameplay/action).": true,
+                "Mengetahui kondisi dan cara pemain meraih kemenangan.": true,
+                "Menentukan komponen utama yang dibutuhkan.": true,
+                "Memiliki batasan skala/cakupan game (scope).": true,
+                "Bisa merangkum dan menjelaskan game dalam waktu ±30 detik.": true
+            },
+            "media": [],
+            "playtests": [],
+            "ideas": []
+        },
+        {
+            "nama": "POP!",
+            "min_player": "3",
+            "max_player": "6",
+            "min_duration": "10",
+            "max_duration": "15",
+            "genre": "Bluffing, Push-your-luck, card game",
+            "deadline": "2026-11-18",
+            "status": "Pause",
+            "summary": "POP! adalah permainan kartu bluffing dan push-your-luck tentang sekelompok pemain yang saling mengoper tumpukan kartu seolah-olah kaleng soda. Pemain harus mengumpulkan 4 Safe Soda di tableau sambil menghindari POP! Soda yang akan mengembalikan seluruh soda di tableau ke tangan. Pemain dapat menggertak tentang isi tumpukan, sementara kartu aksi Tap, Listen, dan Shake memberi cara untuk mengurangi risiko, memperoleh informasi, atau memaksa pemain berikutnya membuka kartu. Pemain yang pertama mengumpulkan 4 Safe Soda menang.",
+            "components": [
+                {
+                    "komponen": "Card",
+                    "jumlah": "54"
+                }
+            ],
+            "tasks": {
+                "Mengetahui inti aksi pemain (core gameplay/action).": true,
+                "Mengetahui kondisi dan cara pemain meraih kemenangan.": true,
+                "Menentukan komponen utama yang dibutuhkan.": true,
+                "Memiliki batasan skala/cakupan game (scope).": true,
+                "Bisa merangkum dan menjelaskan game dalam waktu ±30 detik.": true
+            },
+            "media": [],
+            "playtests": [],
+            "ideas": []
+        }
+    ],
+    "illustrations": [],
+    "commissions": [],
+    "settings": {
+        "google_account": "Belum Terhubung",
+        "sync_mode": "Otomatis (Real-time)"
+    }
+}
